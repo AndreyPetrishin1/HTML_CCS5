@@ -1,0 +1,76 @@
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+body{
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items:center ;
+}
+.general{
+	width: 600px;
+	height: 400px;
+	border: 1px solid black;
+	position: relative;
+
+}
+
+.form> div{
+	margin-top: 7px;
+	margin-bottom:  7px: ;
+
+}
+.form .form_item:nth-child(1){
+margin-left: 66px;
+}
+
+.form .form_item:nth-child(2){
+margin-left: 55px;
+}
+
+.form .form_item:nth-child(3){
+margin-left: 14px;
+}
+
+#tema{
+width: 145px;
+}
+#text{
+	width: 400px;
+	height: 120px;
+}
+
+#text1{
+	
+	margin-bottom: 0px;
+	
+}
+
+.form .form_item:nth-child(4){
+margin-left: 82px;
+}
+
+.form .form_item:nth-child(5){
+margin-left: 6px;
+}
+
+.form> .send{
+margin-left: 131px;	
+margin-top: 40px;
+}
+#spam{
+	margin-left: 165px;
+}
+#spam1{
+width: 70px;
+}
+
+#imgs{
+display: block;
+position: absolute;
+bottom: 126px;
+right: 230px;
+}

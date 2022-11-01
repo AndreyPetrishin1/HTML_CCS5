@@ -1,0 +1,78 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.border{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+
+.header__form{
+	display: flex;
+	align-items: center;
+	padding-left: 12px;
+	border: 2px solid black;
+	height: 10%;
+	text-transform: uppercase;
+	font-size: 10px;
+}
+.form{
+
+	background: grey;
+	height: 420px;
+	width: 420px;
+}
+.main__form{
+	display: flex;
+	flex-direction: column;
+	
+}
+.form__item{
+	display: flex;
+	margin-top: 17px;
+	margin-bottom: 17px;
+}
+
+.form__item:nth-child(1){
+	margin-left: 15px;
+}
+.form__item:nth-child(2){
+	margin-left: 38px;
+}
+.form__item:nth-child(3){
+	margin-left: 29px;
+}
+.form__item:nth-child(4){
+	margin-left: 22px;
+}
+label{
+	margin-right: 8px;
+}
+.form__item> input{
+	height: 24px;
+	width: 170px;
+	background: #626262;
+	border: none;
+}
+#Massage{
+	height: 100px;
+	width: 290px;
+}
+#btn{
+	height: 30px;
+	width: 100px;
+	margin-left: 280px;
+	background: red;
+	color: white;
+	border: none;
+}

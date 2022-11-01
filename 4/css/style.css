@@ -1,0 +1,105 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.border{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: blue;
+	height: 385px;
+	width: 420px;
+	position: relative;
+}
+.header__form{
+	display: flex;
+	align-items: center;
+	padding-left: 12px;
+	border: 2px solid black;
+	height: 15%;
+}
+.form{
+
+	background: grey;
+	height: 315px;
+	width: 350px;
+}
+.main__form{
+	display: flex;
+	flex-direction: column;
+	
+}
+.form__item{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 17px;
+	margin-bottom: 17px;
+}
+.ref{
+	color: blue;
+	margin:auto ;
+	padding-left:83px;
+}
+.check{
+	margin:auto ;
+	margin-top: 15px;
+	padding-left: 111px;
+}
+.footer__form{
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	margin-top: 35px;
+	padding-left: 12px;
+	border: 2px solid black;
+	height: 15%;
+}
+.form__item label{
+	height: 30px;
+	width: 15px;
+	}
+	.footer__form> input{
+margin-right: 35px;
+height: 35px;
+width: 80px;
+	}
+.footer__form input:nth-child(2){
+	color: white;
+	background: blue;
+	border: none;
+}
+
+.footer__form input:nth-child(1){
+	color: white;
+	background: #979797;
+	border: none;
+}
+.fa-user{
+	color: #c4c1c1;
+	font-size: 30px;
+	border: 1px solid grey;
+}
+.icon1{
+	position: absolute;
+	margin: auto;
+	right: 83px;
+	bottom: 251px;
+}
+.fa-lock{
+	color: #c4c1c1;
+	font-size: 30px;
+	border: 1px solid grey;
+}
+.icon2{
+	position: absolute;
+	margin: auto;
+	right: 83px;
+	bottom: 187px;
+}

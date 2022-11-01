@@ -1,0 +1,48 @@
+ *{
+ 	margin: 0px;
+ 	padding: 0px;
+ }
+body {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.forma{
+	border: 1px solid black;
+	height: 600px;
+	width: 600px;
+	
+}
+.forma__item{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+margin: 10px 10px 10px 10px;
+}
+.btn input{
+margin-top: 15px;
+
+width: 140px;
+height: 30px;
+background: blue;
+color: white;
+border: none;	
+border-radius: 5px;
+}
+
+label{
+margin-bottom: 5px;
+}
+
+input{
+	height: 30px;
+}
+
+h1{
+	text-align: center;
+}
+.forma__item> #con {
+	display: block;
+	border: 1px solid blue;
+}
